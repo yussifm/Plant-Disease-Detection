@@ -30,11 +30,9 @@ app = Flask(__name__)
 
 @app.route('/')
 def home_page():
-    return render_template('home.html')
+    return render_template('index.html')
 
-@app.route('/contact')
-def contact():
-    return render_template('contact-us.html')
+
 
 @app.route('/index')
 def ai_engine_page():
