@@ -3,3 +3,7 @@ pip install click Flask gunicorn itsdangerous Jinja2 MarkupSafe numpy pandas Pil
 
 pip install waitress
 waitress-serve --port=8000 app:app
+
+
+http://localhost:8000/
+
