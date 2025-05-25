@@ -7,3 +7,4 @@ waitress-serve --port=8000 app:app
 
 http://localhost:8000/
 
+flask --app app run --port=8000 --reload
