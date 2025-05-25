@@ -13,8 +13,8 @@ from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_sc
 import seaborn as sns
 
 # Define paths for local execution
-zip_path = 'path/to/Plant_Leaf_diseases_dataset_with_augmentation.zip'  # Update this to your ZIP file location
-extracted_path = 'path/to/extracted/Plant_Leaf_Dataset'  # Update this to your extraction directory
+zip_path = 'data/Plant_leaf_diseases_dataset_with_augmentation.zip'  # Update this to your ZIP file location
+extracted_path = 'data/extracted/Plant_Leaf_Dataset'  # Update this to your extraction directory
 
 # Extract the ZIP file if not already done
 if not os.path.exists(extracted_path):
