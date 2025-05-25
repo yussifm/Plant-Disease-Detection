@@ -25,6 +25,7 @@ venv/
 */model.safetensors
 ./data
 /data
+*.pt
 
 .env
 
